@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuratour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <main class="main">
+            <section class="main__configuratour configuratour">
+                <div class="container">
+                    <div class="configuratour__wrapper">
+                        <div class="configuratour__tubs tubs">
+                            <div class="tubs__tub tub tub--active" data-value="0">
+                                <span>
+                                    Корпус
+                                </span>
+                            </div>
+                            <div class="tubs__tub tub" data-value="1">
+                                <span>
+                                    Клеммы
+                                </span>
+                            </div>
+                            <div class="tubs__tub tub" data-value="2">
+                                <span>
+                                    Кабельные
+                                    вводы
+                                </span>
+                            </div>
+                            <div class="tubs__tub tub" data-value="3">
+                                <span>
+                                    Аксессуары
+                                </span>
+                            </div>
+                        </div>
+                        <div class="configuratour__inner">
+                            <div class="configuratour__item configuratour-item configuratour-item--active"
+                                data-value="0">
+                                <div class="configuratour-item__body configuratour-body">
+                                    <div class="configuratour-body__wrapper" data-value="0">
+                                        <h2 class="configuratour-body__title title">
+                                            Корпус
+                                        </h2>
+                                        <form class="configuratour-body__form form" action="#" method="post">
+                                            <div class="form__select select select--materials">
+                                                <label class="select__label">Материал корпуса</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Сталь</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Полиэстер</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Сталь</option>
+                                                    <option value="1">Полиэстер</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--series">
+                                                <label class="select__label">Серия</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <picture>
+                                                                <img src="images/frame-series-img-1.png" alt="Р1000">
+                                                            </picture>
+                                                            <span>Р1000</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <picture>
+                                                                <img src="images/frame-series-img-1.png" alt="Р2000">
+                                                            </picture>
+                                                            <span>Р2000</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc2" style="display:none;">
+                                                    <option value="0">Р1000</option>
+                                                    <option value="1">Р2000</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select">
+                                                <label class="select__label">Размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>500 x 250</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>500 x 500</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc3" style="display:none;">
+                                                    <option value="0">Первый материал</option>
+                                                    <option value="1">Второй материал</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="configuratour-item__view configuratour-view configuratour-view--frame">
+                                    <div class="configuratour-view__wrapper configuratour-view__wrapper--active">
+                                        <picture class="configuratour-view__img">
+                                            <img src="images/frame-img-stock.svg" alt="img">
+                                        </picture>
+                                        stock
+                                    </div>
+                                    <div class="configuratour-view__wrapper" data-value="0">
+                                        <picture class="configuratour-view__img">
+                                            <img src="images/frame-img-1.svg" alt="img">
+                                        </picture> 1
+                                    </div>
+                                    <div class="configuratour-view__wrapper" data-value="1">
+                                        <picture class="configuratour-view__img">
+                                            <img src="images/frame-img-1.svg" alt="img">
+                                        </picture> 2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="configuratour__item configuratour-item configuratour-item--terminals"
+                                data-value="1">
+                                <div class="configuratour-item__body configuratour-body">
+                                    <div class="configuratour-body__wrapper" data-value="0">
+                                        <h2 class="configuratour-body__title title">
+                                            Блок
+                                            <span>
+                                                1
+                                            </span>
+                                        </h2>
+                                        <div class="configuratour-body__close">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="2" y="0.000976562" width="19.7979" height="2.82827"
+                                                    transform="rotate(45 2 0.000976562)" fill="#1A232F" />
+                                                <rect x="16" y="2" width="19.7979" height="2.82827"
+                                                    transform="rotate(135 16 2)" fill="#1A232F" />
+                                            </svg>
+                                        </div>
+                                        <form class="configuratour-body__form form" action="#" method="post">
+                                            <div class="form__select select select--brand">
+                                                <label class="select__label">Бренд клеммы</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Первый бренд</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Второй бренд</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Первый бренд</option>
+                                                    <option value="1">Второй бренд</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--size">
+                                                <label class="select__label">Размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>WDU 2.5</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>WDU 4</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Первый размер</option>
+                                                    <option value="1">Второй размер</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--color">
+                                                <label class="select__label">Цвет</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Белый</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Синий</span>
+                                                        </div>
+                                                        <div data-value="2">
+                                                            <span>Зеленый</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Белый</option>
+                                                    <option value="1">Синий</option>
+                                                    <option value="2">Зеленый</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__count count">
+                                                <div class="count__wrapper">
+                                                    <div class="count__text">
+                                                        Количество
+                                                    </div>
+                                                    <div class="slider-container" id="slider-container">
+                                                        <div class="slider-track" id="slider-track"></div>
+                                                        <div class="slider-thumb" id="slider-thumb"></div>
+                                                    </div>
+                                                </div>
+                                                <input class="count__input" type="number" id="numberInput" min="1"
+                                                    max="13" value="3">
+                                            </div>
+                                            <button class="form__add">
+                                                ADD +
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="configuratour-item__view configuratour-view">
+                                    <div class="configuratour-view__wrapper configuratour-view__wrapper--active">
+                                        <picture class="configuratour-view__img">
+                                            <img src="images/frame-img-stock.svg" alt="img">
+                                        </picture>
+                                        stock
+                                    </div>
+                                    <div class="configuratour-view__wrapper" data-value="0">
+                                        <div class="configuratour-view__rail rail">
+                                            <picture class="rail__img">
+                                                <img src="images/rail.svg" alt="rail">
+                                            </picture>
+                                            <div class="rail__wrapper">
+                                                <picture class="rail__closing">
+                                                    <img src="images/terminals-closing.svg" alt="rail">
+                                                </picture>
+                                                <div class="rail__inner">
+
+                                                </div>
+                                                <picture class="rail__closing">
+                                                    <img src="images/terminals-closing.svg" alt="rail">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <picture class="configuratour-view__img">
+                                            <img src="images/frame-img-1-empty.svg" alt="img">
+                                        </picture> 1
+                                    </div>
+                                    <div class="configuratour-view__wrapper" data-value="1">
+                                        <div class="configuratour-view__rail rail">
+                                            <picture class="rail__img">
+                                                <img src="images/rail.svg" alt="rail">
+                                            </picture>
+                                            <div class="rail__wrapper">
+                                                <picture class="rail__closing">
+                                                    <img src="images/terminals-closing.svg" alt="rail">
+                                                </picture>
+                                                <div class="rail__inner">
+
+                                                </div>
+                                                <picture class="rail__closing">
+                                                    <img src="images/terminals-closing.svg" alt="rail">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <picture class="configuratour-view__img">
+                                            <img src="images/frame-img-1-empty.svg" alt="img">
+                                        </picture> 2
+                                    </div>
+                                    <div class="configuratour-view__revert revert">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_2692_12933)">
+                                                <path
+                                                    d="M1.99507 18.519C1.94685 18.9852 1.90934 19.3763 1.87183 19.7675C1.81825 20.3569 1.4003 20.732 0.837673 20.6891C0.317914 20.6463 -0.0518113 20.2015 -0.00358625 19.6389C0.135731 18.0207 0.280406 16.4025 0.446514 14.7896C0.537606 13.884 1.28777 13.5518 2.02722 14.0716C3.32394 14.9879 4.6153 15.9148 5.90666 16.8418C6.41035 17.2062 6.52287 17.7635 6.19601 18.2136C5.87451 18.6583 5.30117 18.7173 4.79749 18.3582C4.42776 18.0957 4.05803 17.8331 3.64544 17.6027C3.70438 17.6938 3.76333 17.7795 3.82763 17.8653C5.91202 20.7052 8.71979 22.2109 12.2402 22.1091C16.0661 21.9966 18.906 20.1426 20.7975 16.8311C20.8243 16.7829 20.8457 16.7347 20.8725 16.6918C21.1565 16.172 21.6977 15.9952 22.1853 16.2578C22.6568 16.515 22.8015 17.0669 22.5282 17.5813C22.046 18.4922 21.478 19.3442 20.7707 20.0997C18.2308 22.8271 15.0962 24.1828 11.3722 23.9845C7.46594 23.7809 4.41168 21.9644 2.16118 18.7708C2.12903 18.6958 2.08081 18.6369 1.99507 18.519Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M20.3074 6.43574C19.4501 5.04257 18.3141 3.94947 16.8941 3.16716C14.2257 1.69361 11.434 1.45249 8.57264 2.48665C6.18818 3.34934 4.40921 4.95684 3.18215 7.18055C3.05891 7.4056 2.87136 7.62529 2.66239 7.75925C2.3141 7.97894 1.86935 7.87714 1.58536 7.58243C1.29601 7.28236 1.23707 6.85905 1.44069 6.46789C2.06761 5.26227 2.86065 4.17452 3.8573 3.25289C6.26855 1.0131 9.12455 -0.112148 12.4092 0.0110934C16.2351 0.155769 19.284 1.84365 21.5827 4.89254C21.7059 5.05865 21.8184 5.22476 21.9363 5.39622C21.9417 5.40158 21.9524 5.40158 22.006 5.42837C22.0489 5.00507 22.0864 4.59783 22.1292 4.1906C22.1775 3.68691 22.5365 3.32791 23.008 3.30647C23.6081 3.27432 24.0475 3.7405 23.9993 4.37278C23.9296 5.24619 23.8439 6.11424 23.7635 6.98765C23.6885 7.76997 23.6135 8.55229 23.5385 9.3346C23.5117 9.62931 23.3777 9.85972 23.1259 10.0205C22.7722 10.2455 22.4132 10.2455 22.0703 10.0044C20.7093 9.03989 19.3483 8.07004 17.998 7.09482C17.5639 6.77868 17.4943 6.20533 17.8051 5.78738C18.1105 5.37479 18.6731 5.28906 19.1178 5.59984C19.5197 5.8624 19.9109 6.15175 20.3074 6.43574Z"
+                                                    fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_2692_12933">
+                                                    <rect width="24" height="23.9893" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                    <div class="configuratour-view__info info">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_2692_21020)">
+                                                <g clip-path="url(#clip1_2692_21020)">
+                                                    <path
+                                                        d="M7 10.6986C7.11232 10.2446 7.20593 9.83744 7.31357 9.43495C7.33229 9.37411 7.39782 9.3039 7.46334 9.2805C8.53042 8.87333 9.58814 8.41935 10.7207 8.2181C11.83 8.02153 12.9298 8.04493 13.9688 8.55039C15.078 9.08861 15.6583 10.2399 15.6069 11.4661C15.5413 13.1042 14.9704 14.6159 14.5679 16.1744C14.3058 17.1994 14.0203 18.2197 13.7769 19.2493C13.6552 19.7548 13.585 20.2789 13.6927 20.8031C13.8144 21.4022 14.0998 21.6643 14.7036 21.7672C15.5086 21.9076 16.2668 21.7392 17.0203 21.4817C17.0905 21.4583 17.1607 21.4303 17.2683 21.3928C17.1607 21.8421 17.0577 22.2633 16.9501 22.6846C16.936 22.7314 16.8705 22.7782 16.819 22.8016C15.9345 23.1292 15.0686 23.5176 14.1607 23.7563C12.8549 24.1027 11.5304 24.1354 10.2761 23.5176C9.18097 22.9794 8.60998 22.0668 8.59594 20.8406C8.58658 19.7688 8.83931 18.7438 9.12481 17.7189C9.5741 16.1136 10.0094 14.5083 10.4306 12.8983C10.571 12.3554 10.6178 11.7938 10.5148 11.2275C10.4259 10.7454 10.1544 10.4505 9.67239 10.3476C9.01248 10.2072 8.37129 10.268 7.73479 10.4646C7.50546 10.5301 7.28081 10.6097 7 10.6986Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M14.6266 5.59768C13.3349 5.5462 12.3661 5.0033 11.8326 3.84729C11.2241 2.5228 11.8606 0.992376 13.2366 0.313749C14.4909 -0.304035 16.0307 0.00953718 16.9433 1.06258C18.1929 2.50408 17.5658 4.71781 15.7171 5.39643C15.558 5.4526 15.3895 5.4994 15.221 5.53216C15.0151 5.56492 14.8045 5.57896 14.6266 5.59768Z"
+                                                        fill="white" />
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_2692_21020">
+                                                    <rect width="24" height="23.9893" fill="white" />
+                                                </clipPath>
+                                                <clipPath id="clip1_2692_21020">
+                                                    <rect width="10.5913" height="24" fill="white"
+                                                        transform="translate(7)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="configuratour__item configuratour-item configuratour-item--inputs"
+                                data-value="2">
+                                <div class="configuratour-item__body configuratour-body">
+                                    <div class="configuratour-body__wrapper" data-value="0">
+                                        <h2 class="configuratour-body__title title">
+                                            Кабельный ввод
+                                        </h2>
+                                        <div class="configuratour-body__tubs configuratour-tubs">
+                                            <div class="configuratour-tubs__tub" data-value="0">
+                                                Сторона А
+                                            </div>
+                                            <div class="configuratour-tubs__tub configuratour-tubs__tub--active"
+                                                data-value="1">
+                                                Сторона B
+                                            </div>
+                                            <div class="configuratour-tubs__tub" data-value="2">
+                                                Сторона C
+                                            </div>
+                                            <div class="configuratour-tubs__tub" data-value="3">
+                                                СТОРОНА D
+                                            </div>
+                                        </div>
+                                        <form class="configuratour-body__form form form--inputs form--active" action="#"
+                                            method="post" data-value="0">
+                                            <div class="form__select select select--inputs-type">
+                                                <label class="select__label">Тип ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Заглушка</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Кабельный ввод</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Заглушка</option>
+                                                    <option value="1">Кабельный ввод</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--cabel-type">
+                                                <label class="select__label">Тип кабельного ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Бронированный</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Небронированный</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Бронированный</option>
+                                                    <option value="1">Небронированный</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--inputs-size">
+                                                <label class="select__label">Размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>M20</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>M25</span>
+                                                        </div>
+                                                        <div data-value="2">
+                                                            <span>M32</span>
+                                                        </div>
+                                                        <div data-value="3">
+                                                            <span>M40</span>
+                                                        </div>
+                                                        <div data-value="4">
+                                                            <span>M50</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">
+                                                        M20
+                                                    </option>
+                                                    <option value="1">
+                                                        M25
+                                                    </option>
+                                                    <option value="2">
+                                                        M32
+                                                    </option>
+                                                    <option value="3">
+                                                        M40
+                                                    </option>
+                                                    <option value="4">
+                                                        M50
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="form__count count">
+                                                <div class="count__wrapper">
+                                                    <div class="count__text">
+                                                        Количество
+                                                    </div>
+                                                    <div class="slider-container" id="slider-container">
+                                                        <div class="slider-track" id="slider-track"></div>
+                                                        <div class="slider-thumb" id="slider-thumb"></div>
+                                                    </div>
+                                                </div>
+                                                <input class="count__input" type="number" id="numberInput" min="1"
+                                                    max="10" value="5">
+                                            </div>
+                                            <div class="form__inputs-location inputs-location">
+                                                <label class="inputs-location__label" for="">
+                                                    Рассположение вводов
+                                                </label>
+                                                <div class="inputs-location__inner">
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="0">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="36" viewBox="0 0 70 36" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="25" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="25" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="15" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="45" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="45" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="35" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="55" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="1">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="22" viewBox="0 0 70 22" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="23" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="17" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="11" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="29" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="53" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="41" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="form__add">
+                                                ADD +
+                                            </button>
+                                        </form>
+                                        <form class="configuratour-body__form form form--inputs" action="#"
+                                            method="post" data-value="1">
+                                            <div class="form__select select select--inputs-type">
+                                                <label class="select__label">Тип ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Заглушка</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Кабельный ввод</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Заглушка</option>
+                                                    <option value="1">Кабельный ввод</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--cabel-type">
+                                                <label class="select__label">Тип кабельного ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Бронированный</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Небронированный</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Бронированный</option>
+                                                    <option value="1">Небронированный</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--inputs-size">
+                                                <label class="select__label">Размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>M20</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>M25</span>
+                                                        </div>
+                                                        <div data-value="2">
+                                                            <span>M32</span>
+                                                        </div>
+                                                        <div data-value="3">
+                                                            <span>M40</span>
+                                                        </div>
+                                                        <div data-value="4">
+                                                            <span>M50</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">
+                                                        M20
+                                                    </option>
+                                                    <option value="1">
+                                                        M25
+                                                    </option>
+                                                    <option value="2">
+                                                        M32
+                                                    </option>
+                                                    <option value="3">
+                                                        M40
+                                                    </option>
+                                                    <option value="4">
+                                                        M50
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="form__count count">
+                                                <div class="count__wrapper">
+                                                    <div class="count__text">
+                                                        Количество
+                                                    </div>
+                                                    <div class="slider-container" id="slider-container">
+                                                        <div class="slider-track" id="slider-track"></div>
+                                                        <div class="slider-thumb" id="slider-thumb"></div>
+                                                    </div>
+                                                </div>
+                                                <input class="count__input" type="number" id="numberInput" min="1"
+                                                    max="10" value="5">
+                                            </div>
+                                            <div class="form__inputs-location inputs-location">
+                                                <label class="inputs-location__label" for="">
+                                                    Рассположение вводов
+                                                </label>
+                                                <div class="inputs-location__inner">
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="0">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="36" viewBox="0 0 70 36" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="25" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="25" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="15" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="45" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="45" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="35" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="55" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="1">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="22" viewBox="0 0 70 22" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="23" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="17" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="11" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="29" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="53" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="41" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="form__add">
+                                                ADD +
+                                            </button>
+                                        </form>
+                                        <form class="configuratour-body__form form form--inputs" action="#"
+                                            method="post" data-value="2">
+                                            <div class="form__select select select--inputs-type">
+                                                <label class="select__label">Тип ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Заглушка</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Кабельный ввод</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Заглушка</option>
+                                                    <option value="1">Кабельный ввод</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--cabel-type">
+                                                <label class="select__label">Тип кабельного ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Бронированный</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Небронированный</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Бронированный</option>
+                                                    <option value="1">Небронированный</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--inputs-size">
+                                                <label class="select__label">Размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>M20</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>M25</span>
+                                                        </div>
+                                                        <div data-value="2">
+                                                            <span>M32</span>
+                                                        </div>
+                                                        <div data-value="3">
+                                                            <span>M40</span>
+                                                        </div>
+                                                        <div data-value="4">
+                                                            <span>M50</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">
+                                                        M20
+                                                    </option>
+                                                    <option value="1">
+                                                        M25
+                                                    </option>
+                                                    <option value="2">
+                                                        M32
+                                                    </option>
+                                                    <option value="3">
+                                                        M40
+                                                    </option>
+                                                    <option value="4">
+                                                        M50
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="form__count count">
+                                                <div class="count__wrapper">
+                                                    <div class="count__text">
+                                                        Количество
+                                                    </div>
+                                                    <div class="slider-container" id="slider-container">
+                                                        <div class="slider-track" id="slider-track"></div>
+                                                        <div class="slider-thumb" id="slider-thumb"></div>
+                                                    </div>
+                                                </div>
+                                                <input class="count__input" type="number" id="numberInput" min="1"
+                                                    max="10" value="5">
+                                            </div>
+                                            <div class="form__inputs-location inputs-location">
+                                                <label class="inputs-location__label" for="">
+                                                    Рассположение вводов
+                                                </label>
+                                                <div class="inputs-location__inner">
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="0">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="36" viewBox="0 0 70 36" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="25" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="25" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="15" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="45" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="45" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="35" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="55" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="1">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="22" viewBox="0 0 70 22" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="23" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="17" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="11" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="29" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="53" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="41" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="form__add">
+                                                ADD +
+                                            </button>
+                                        </form>
+                                        <form class="configuratour-body__form form form--inputs" action="#"
+                                            method="post" data-value="3">
+                                            <div class="form__select select select--inputs-type">
+                                                <label class="select__label">Тип ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Заглушка</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Кабельный ввод</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Заглушка</option>
+                                                    <option value="1">Кабельный ввод</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--cabel-type">
+                                                <label class="select__label">Тип кабельного ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Бронированный</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Небронированный</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Бронированный</option>
+                                                    <option value="1">Небронированный</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--inputs-size">
+                                                <label class="select__label">Размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>M20</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>M25</span>
+                                                        </div>
+                                                        <div data-value="2">
+                                                            <span>M32</span>
+                                                        </div>
+                                                        <div data-value="3">
+                                                            <span>M40</span>
+                                                        </div>
+                                                        <div data-value="4">
+                                                            <span>M50</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">
+                                                        M20
+                                                    </option>
+                                                    <option value="1">
+                                                        M25
+                                                    </option>
+                                                    <option value="2">
+                                                        M32
+                                                    </option>
+                                                    <option value="3">
+                                                        M40
+                                                    </option>
+                                                    <option value="4">
+                                                        M50
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="form__count count">
+                                                <div class="count__wrapper">
+                                                    <div class="count__text">
+                                                        Количество
+                                                    </div>
+                                                    <div class="slider-container" id="slider-container">
+                                                        <div class="slider-track" id="slider-track"></div>
+                                                        <div class="slider-thumb" id="slider-thumb"></div>
+                                                    </div>
+                                                </div>
+                                                <input class="count__input" type="number" id="numberInput" min="1"
+                                                    max="10" value="5">
+                                            </div>
+                                            <div class="form__inputs-location inputs-location">
+                                                <label class="inputs-location__label" for="">
+                                                    Рассположение вводов
+                                                </label>
+                                                <div class="inputs-location__inner">
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="0">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="36" viewBox="0 0 70 36" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="25" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="25" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="15" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="45" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="45" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="35" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="31" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="55" cy="18" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="1">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="22" viewBox="0 0 70 22" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="23" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="17" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="11" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="29" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="53" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="41" cy="17" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="form__add">
+                                                ADD +
+                                            </button>
+                                        </form>
+                                    </div>
+                                    <div class="configuratour-body__wrapper" data-value="0">
+                                        <h2 class="configuratour-body__title title">
+                                            Дополнительный ввод
+                                        </h2>
+                                        <form class="configuratour-body__form form form--additional form--active"
+                                            action="#" method="post" data-value="0">
+                                            <div class="form__select select select--additional-inputs-type">
+                                                <label class="select__label">Тип ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Заглушка</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Кабельный ввод</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Заглушка</option>
+                                                    <option value="1">Кабельный ввод</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--additional-cabel-type">
+                                                <label class="select__label">Тип кабельного ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Бронированный</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Небронированный</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Бронированный</option>
+                                                    <option value="1">Небронированный</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--additional-inputs-size">
+                                                <label class="select__label">Увеличеный размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>M20</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>M25</span>
+                                                        </div>
+                                                        <div data-value="2">
+                                                            <span>M32</span>
+                                                        </div>
+                                                        <div data-value="3">
+                                                            <span>M40</span>
+                                                        </div>
+                                                        <div data-value="4">
+                                                            <span>M50</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">
+                                                        M20
+                                                    </option>
+                                                    <option value="1">
+                                                        M25
+                                                    </option>
+                                                    <option value="2">
+                                                        M32
+                                                    </option>
+                                                    <option value="3">
+                                                        M40
+                                                    </option>
+                                                    <option value="4">
+                                                        M50
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="form__count count">
+                                                <div class="count__wrapper">
+                                                    <div class="count__text">
+                                                        Количество
+                                                    </div>
+                                                    <div class="slider-container" id="slider-container">
+                                                        <div class="slider-track" id="slider-track"></div>
+                                                        <div class="slider-thumb" id="slider-thumb"></div>
+                                                    </div>
+                                                </div>
+                                                <input class="count__input" type="number" id="numberInput" min="0"
+                                                    max="1" value="1">
+                                            </div>
+                                            <div class="form__inputs-location inputs-location">
+                                                <label class="inputs-location__label" for="">
+                                                    Рассположение вводов
+                                                </label>
+                                                <div class="inputs-location__inner">
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="0">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="26" viewBox="0 0 70 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="33" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="33" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="10" cy="13" r="9.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="49" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="49" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="1">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="66" height="26" viewBox="0 0 66 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="33" cy="13" r="9.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="61" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="61" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="2">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="26" viewBox="0 0 70 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 42 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 42 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="10" cy="10" r="9.25"
+                                                                    transform="matrix(-1 0 0 1 70 3)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 26 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 26 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 10 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 10 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="form__add">
+                                                ADD +
+                                            </button>
+                                        </form>
+                                        <form class="configuratour-body__form form form--additional" action="#"
+                                            method="post" data-value="1">
+                                            <div class="form__select select select--additional-inputs-type">
+                                                <label class="select__label">Тип ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Заглушка</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Кабельный ввод</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Заглушка</option>
+                                                    <option value="1">Кабельный ввод</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--additional-cabel-type">
+                                                <label class="select__label">Тип кабельного ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Бронированный</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Небронированный</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Бронированный</option>
+                                                    <option value="1">Небронированный</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--additional-inputs-size">
+                                                <label class="select__label">Увеличеный размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>M20</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>M25</span>
+                                                        </div>
+                                                        <div data-value="2">
+                                                            <span>M32</span>
+                                                        </div>
+                                                        <div data-value="3">
+                                                            <span>M40</span>
+                                                        </div>
+                                                        <div data-value="4">
+                                                            <span>M50</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">
+                                                        M20
+                                                    </option>
+                                                    <option value="1">
+                                                        M25
+                                                    </option>
+                                                    <option value="2">
+                                                        M32
+                                                    </option>
+                                                    <option value="3">
+                                                        M40
+                                                    </option>
+                                                    <option value="4">
+                                                        M50
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="form__count count">
+                                                <div class="count__wrapper">
+                                                    <div class="count__text">
+                                                        Количество
+                                                    </div>
+                                                    <div class="slider-container" id="slider-container">
+                                                        <div class="slider-track" id="slider-track"></div>
+                                                        <div class="slider-thumb" id="slider-thumb"></div>
+                                                    </div>
+                                                </div>
+                                                <input class="count__input" type="number" id="numberInput" min="0"
+                                                    max="1" value="1">
+                                            </div>
+                                            <div class="form__inputs-location inputs-location">
+                                                <label class="inputs-location__label" for="">
+                                                    Рассположение вводов
+                                                </label>
+                                                <div class="inputs-location__inner">
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="0">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="26" viewBox="0 0 70 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="33" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="33" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="10" cy="13" r="9.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="49" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="49" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="1">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="66" height="26" viewBox="0 0 66 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="33" cy="13" r="9.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="61" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="61" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="2">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="26" viewBox="0 0 70 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 42 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 42 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="10" cy="10" r="9.25"
+                                                                    transform="matrix(-1 0 0 1 70 3)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 26 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 26 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 10 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 10 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="form__add">
+                                                ADD +
+                                            </button>
+                                        </form>
+                                        <form class="configuratour-body__form form form--additional" action="#"
+                                            method="post" data-value="2">
+                                            <div class="form__select select select--additional-inputs-type">
+                                                <label class="select__label">Тип ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Заглушка</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Кабельный ввод</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Заглушка</option>
+                                                    <option value="1">Кабельный ввод</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--additional-cabel-type">
+                                                <label class="select__label">Тип кабельного ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Бронированный</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Небронированный</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Бронированный</option>
+                                                    <option value="1">Небронированный</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--additional-inputs-size">
+                                                <label class="select__label">Увеличеный размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>M20</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>M25</span>
+                                                        </div>
+                                                        <div data-value="2">
+                                                            <span>M32</span>
+                                                        </div>
+                                                        <div data-value="3">
+                                                            <span>M40</span>
+                                                        </div>
+                                                        <div data-value="4">
+                                                            <span>M50</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">
+                                                        M20
+                                                    </option>
+                                                    <option value="1">
+                                                        M25
+                                                    </option>
+                                                    <option value="2">
+                                                        M32
+                                                    </option>
+                                                    <option value="3">
+                                                        M40
+                                                    </option>
+                                                    <option value="4">
+                                                        M50
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="form__count count">
+                                                <div class="count__wrapper">
+                                                    <div class="count__text">
+                                                        Количество
+                                                    </div>
+                                                    <div class="slider-container" id="slider-container">
+                                                        <div class="slider-track" id="slider-track"></div>
+                                                        <div class="slider-thumb" id="slider-thumb"></div>
+                                                    </div>
+                                                </div>
+                                                <input class="count__input" type="number" id="numberInput" min="0"
+                                                    max="1" value="1">
+                                            </div>
+                                            <div class="form__inputs-location inputs-location">
+                                                <label class="inputs-location__label" for="">
+                                                    Рассположение вводов
+                                                </label>
+                                                <div class="inputs-location__inner">
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="0">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="26" viewBox="0 0 70 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="33" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="33" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="10" cy="13" r="9.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="49" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="49" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="1">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="66" height="26" viewBox="0 0 66 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="33" cy="13" r="9.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="61" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="61" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="2">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="26" viewBox="0 0 70 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 42 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 42 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="10" cy="10" r="9.25"
+                                                                    transform="matrix(-1 0 0 1 70 3)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 26 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 26 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 10 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 10 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="form__add">
+                                                ADD +
+                                            </button>
+                                        </form>
+                                        <form class="configuratour-body__form form form--additional" action="#"
+                                            method="post" data-value="3">
+                                            <div class="form__select select select--additional-inputs-type">
+                                                <label class="select__label">Тип ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Заглушка</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Кабельный ввод</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Заглушка</option>
+                                                    <option value="1">Кабельный ввод</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--additional-cabel-type">
+                                                <label class="select__label">Тип кабельного ввода</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>Бронированный</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>Небронированный</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">Бронированный</option>
+                                                    <option value="1">Небронированный</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__select select select--additional-inputs-size">
+                                                <label class="select__label">Увеличеный размер</label>
+                                                <div class="select__custom-select custom-select">
+                                                    <div class="select-selected"></div>
+                                                    <div class="select-items select-hide">
+                                                        <div data-value="0">
+                                                            <span>M20</span>
+                                                        </div>
+                                                        <div data-value="1">
+                                                            <span>M25</span>
+                                                        </div>
+                                                        <div data-value="2">
+                                                            <span>M32</span>
+                                                        </div>
+                                                        <div data-value="3">
+                                                            <span>M40</span>
+                                                        </div>
+                                                        <div data-value="4">
+                                                            <span>M50</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <select class="real-select" name="slc1" style="display:none;">
+                                                    <option value="0">
+                                                        M20
+                                                    </option>
+                                                    <option value="1">
+                                                        M25
+                                                    </option>
+                                                    <option value="2">
+                                                        M32
+                                                    </option>
+                                                    <option value="3">
+                                                        M40
+                                                    </option>
+                                                    <option value="4">
+                                                        M50
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="form__count count">
+                                                <div class="count__wrapper">
+                                                    <div class="count__text">
+                                                        Количество
+                                                    </div>
+                                                    <div class="slider-container" id="slider-container">
+                                                        <div class="slider-track" id="slider-track"></div>
+                                                        <div class="slider-thumb" id="slider-thumb"></div>
+                                                    </div>
+                                                </div>
+                                                <input class="count__input" type="number" id="numberInput" min="0"
+                                                    max="1" value="1">
+                                            </div>
+                                            <div class="form__inputs-location inputs-location">
+                                                <label class="inputs-location__label" for="">
+                                                    Рассположение вводов
+                                                </label>
+                                                <div class="inputs-location__inner">
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="0">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="26" viewBox="0 0 70 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="33" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="33" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="10" cy="13" r="9.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="49" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="49" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="65" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="1">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="66" height="26" viewBox="0 0 66 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="33" cy="13" r="9.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="61" cy="5" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="61" cy="21" r="4.25" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="inputs-location__item inputs-item">
+                                                        <input class="inputs-item__input" type="radio" data-value="2">
+                                                        <div class="inputs-item__icon"></div>
+                                                        <div class="inputs-item__view">
+                                                            <svg width="70" height="26" viewBox="0 0 70 26" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 42 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 42 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="10" cy="10" r="9.25"
+                                                                    transform="matrix(-1 0 0 1 70 3)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 26 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 26 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 10 0)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                                <circle cx="5" cy="5" r="4.25"
+                                                                    transform="matrix(-1 0 0 1 10 16)" fill="white"
+                                                                    stroke="#007CBE" stroke-width="1.5" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="form__add">
+                                                ADD +
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="configuratour-item__view configuratour-view">
+                                    <div class="configuratour-view__wrapper configuratour-view__wrapper--active">
+                                        <picture class="configuratour-view__img">
+                                            <img src="images/frame-img-stock.svg" alt="img">
+                                        </picture>
+                                        stock
+                                    </div>
+                                    <div class="configuratour-view__wrapper" data-value="0">
+                                        <div class="configuratour-view__rail rail">
+                                            <picture class="rail__img">
+                                                <img src="images/rail.svg" alt="rail">
+                                            </picture>
+                                            <div class="rail__wrapper">
+                                                <picture class="rail__closing">
+                                                    <img src="images/terminals-closing.svg" alt="rail">
+                                                </picture>
+                                                <div class="rail__inner">
+
+                                                </div>
+                                                <picture class="rail__closing">
+                                                    <img src="images/terminals-closing.svg" alt="rail">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <picture class="configuratour-view__img">
+                                            <img src="images/frame-img-1-empty.svg" alt="img">
+                                        </picture> 1
+                                    </div>
+                                    <div class="configuratour-view__wrapper" data-value="1">
+                                        <div class="configuratour-view__rail rail">
+                                            <picture class="rail__img">
+                                                <img src="images/rail.svg" alt="rail">
+                                            </picture>
+                                            <div class="rail__wrapper">
+                                                <picture class="rail__closing">
+                                                    <img src="images/terminals-closing.svg" alt="rail">
+                                                </picture>
+                                                <div class="rail__inner">
+
+                                                </div>
+                                                <picture class="rail__closing">
+                                                    <img src="images/terminals-closing.svg" alt="rail">
+                                                </picture>
+                                            </div>
+                                        </div>
+                                        <picture class="configuratour-view__img">
+                                            <img src="images/frame-img-1-empty.svg" alt="img">
+                                        </picture> 2
+                                    </div>
+                                </div>
+                                <div class="configuratour-item__info info">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2692_21020)">
+                                            <g clip-path="url(#clip1_2692_21020)">
+                                                <path
+                                                    d="M7 10.6986C7.11232 10.2446 7.20593 9.83744 7.31357 9.43495C7.33229 9.37411 7.39782 9.3039 7.46334 9.2805C8.53042 8.87333 9.58814 8.41935 10.7207 8.2181C11.83 8.02153 12.9298 8.04493 13.9688 8.55039C15.078 9.08861 15.6583 10.2399 15.6069 11.4661C15.5413 13.1042 14.9704 14.6159 14.5679 16.1744C14.3058 17.1994 14.0203 18.2197 13.7769 19.2493C13.6552 19.7548 13.585 20.2789 13.6927 20.8031C13.8144 21.4022 14.0998 21.6643 14.7036 21.7672C15.5086 21.9076 16.2668 21.7392 17.0203 21.4817C17.0905 21.4583 17.1607 21.4303 17.2683 21.3928C17.1607 21.8421 17.0577 22.2633 16.9501 22.6846C16.936 22.7314 16.8705 22.7782 16.819 22.8016C15.9345 23.1292 15.0686 23.5176 14.1607 23.7563C12.8549 24.1027 11.5304 24.1354 10.2761 23.5176C9.18097 22.9794 8.60998 22.0668 8.59594 20.8406C8.58658 19.7688 8.83931 18.7438 9.12481 17.7189C9.5741 16.1136 10.0094 14.5083 10.4306 12.8983C10.571 12.3554 10.6178 11.7938 10.5148 11.2275C10.4259 10.7454 10.1544 10.4505 9.67239 10.3476C9.01248 10.2072 8.37129 10.268 7.73479 10.4646C7.50546 10.5301 7.28081 10.6097 7 10.6986Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M14.6266 5.59768C13.3349 5.5462 12.3661 5.0033 11.8326 3.84729C11.2241 2.5228 11.8606 0.992376 13.2366 0.313749C14.4909 -0.304035 16.0307 0.00953718 16.9433 1.06258C18.1929 2.50408 17.5658 4.71781 15.7171 5.39643C15.558 5.4526 15.3895 5.4994 15.221 5.53216C15.0151 5.56492 14.8045 5.57896 14.6266 5.59768Z"
+                                                    fill="white" />
+                                            </g>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2692_21020">
+                                                <rect width="24" height="23.9893" fill="white" />
+                                            </clipPath>
+                                            <clipPath id="clip1_2692_21020">
+                                                <rect width="10.5913" height="24" fill="white"
+                                                    transform="translate(7)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="configuratour__item configuratour-item configuratour-item--accessories"
+                                data-value="3">
+                                <div class="configuratour-item__accessories accessories">
+                                    <h2 class="accessories__title title">
+                                        Аксессуары
+                                    </h2>
+                                    <form class="accessories__form accessories-form" action="#">
+                                        <div class="accessories-form__inner">
+                                            <div class="accessories-form__item accessories-item">
+                                                <input class="accessories-item__checkbox" type="checkbox">
+                                                <div class="accessories-item__icon">
+                                                    <span>
+
+                                                    </span>
+                                                </div>
+                                                <picture class="accessories-item__img">
+                                                    <img src="images/accessories-img-1.png" alt="img">
+                                                </picture>
+                                                <div class="accessories-item__text">
+                                                    Дыхательный клапан
+                                                </div>
+                                            </div>
+                                            <div class="accessories-form__item accessories-item">
+                                                <input class="accessories-item__checkbox" type="checkbox">
+                                                <div class="accessories-item__icon">
+                                                    <span>
+
+                                                    </span>
+                                                </div>
+                                                <picture class="accessories-item__img">
+                                                    <img src="images/accessories-img-2.png" alt="img">
+                                                </picture>
+                                                <div class="accessories-item__text">
+                                                    Держатель таблички
+                                                </div>
+                                            </div>
+                                            <div class="accessories-form__item accessories-item">
+                                                <input class="accessories-item__checkbox" type="checkbox">
+                                                <div class="accessories-item__icon">
+                                                    <span>
+
+                                                    </span>
+                                                </div>
+                                                <picture class="accessories-item__img">
+                                                    <img src="images/accessories-img-3.png" alt="img">
+                                                </picture>
+                                                <div class="accessories-item__text">
+                                                    Монтажная панель
+                                                </div>
+                                            </div>
+                                            <div class="accessories-form__item accessories-item">
+                                                <input class="accessories-item__checkbox" type="checkbox">
+                                                <div class="accessories-item__icon">
+                                                    <span>
+
+                                                    </span>
+                                                </div>
+                                                <picture class="accessories-item__img">
+                                                    <img src="images/accessories-img-4.png" alt="img">
+                                                </picture>
+                                                <div class="accessories-item__text">
+                                                    Пластина заземления
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="accessories-form__btn open-order">
+                                            Сохранить и отправить запрос
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="configuratour-item__info info">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2692_21020)">
+                                            <g clip-path="url(#clip1_2692_21020)">
+                                                <path
+                                                    d="M7 10.6986C7.11232 10.2446 7.20593 9.83744 7.31357 9.43495C7.33229 9.37411 7.39782 9.3039 7.46334 9.2805C8.53042 8.87333 9.58814 8.41935 10.7207 8.2181C11.83 8.02153 12.9298 8.04493 13.9688 8.55039C15.078 9.08861 15.6583 10.2399 15.6069 11.4661C15.5413 13.1042 14.9704 14.6159 14.5679 16.1744C14.3058 17.1994 14.0203 18.2197 13.7769 19.2493C13.6552 19.7548 13.585 20.2789 13.6927 20.8031C13.8144 21.4022 14.0998 21.6643 14.7036 21.7672C15.5086 21.9076 16.2668 21.7392 17.0203 21.4817C17.0905 21.4583 17.1607 21.4303 17.2683 21.3928C17.1607 21.8421 17.0577 22.2633 16.9501 22.6846C16.936 22.7314 16.8705 22.7782 16.819 22.8016C15.9345 23.1292 15.0686 23.5176 14.1607 23.7563C12.8549 24.1027 11.5304 24.1354 10.2761 23.5176C9.18097 22.9794 8.60998 22.0668 8.59594 20.8406C8.58658 19.7688 8.83931 18.7438 9.12481 17.7189C9.5741 16.1136 10.0094 14.5083 10.4306 12.8983C10.571 12.3554 10.6178 11.7938 10.5148 11.2275C10.4259 10.7454 10.1544 10.4505 9.67239 10.3476C9.01248 10.2072 8.37129 10.268 7.73479 10.4646C7.50546 10.5301 7.28081 10.6097 7 10.6986Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M14.6266 5.59768C13.3349 5.5462 12.3661 5.0033 11.8326 3.84729C11.2241 2.5228 11.8606 0.992376 13.2366 0.313749C14.4909 -0.304035 16.0307 0.00953718 16.9433 1.06258C18.1929 2.50408 17.5658 4.71781 15.7171 5.39643C15.558 5.4526 15.3895 5.4994 15.221 5.53216C15.0151 5.56492 14.8045 5.57896 14.6266 5.59768Z"
+                                                    fill="white" />
+                                            </g>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2692_21020">
+                                                <rect width="24" height="23.9893" fill="white" />
+                                            </clipPath>
+                                            <clipPath id="clip1_2692_21020">
+                                                <rect width="10.5913" height="24" fill="white"
+                                                    transform="translate(7)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__popup popup popup--order">
+                <div class="popup__wrapper">
+                    <div class="popup__inner">
+                        <form class="popup__order order" action="#">
+                            <div class="order__decorations order-decorations">
+                                <div class="order-decorations__item"></div>
+                                <div class="order-decorations__item"></div>
+                                <div class="order-decorations__item"></div>
+                                <div class="order-decorations__item"></div>
+                                <div class="order-decorations__item"></div>
+                            </div>
+                            <div class="order__close cls">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2.75" y="0.000976562" width="27.2226" height="3.88894"
+                                        transform="rotate(45 2.75 0.000976562)" fill="white" />
+                                    <rect x="22" y="2.75" width="27.2226" height="3.88894"
+                                        transform="rotate(135 22 2.75)" fill="white" />
+                                </svg>
+                            </div>
+                            <div class="order__inner">
+                                <h2 class="order__title">
+                                    Оформление заказа
+                                </h2>
+                                <div class="order__wrapper">
+                                    <div class="order__box order-box">
+                                        <label class="order-box__label" for="">
+                                            Название организации
+                                        </label>
+                                        <input class="order-box__input" type="text">
+                                    </div>
+                                    <div class="order__box order-box">
+                                        <label class="order-box__label" for="">
+                                            БИН
+                                        </label>
+                                        <input class="order-box__input" type="text">
+                                    </div>
+                                    <div class="order__box order-box">
+                                        <label class="order-box__label" for="">
+                                            Конечный пользователь
+                                        </label>
+                                        <input class="order-box__input" type="text">
+                                    </div>
+                                </div>
+                                <div class="order__wrapper">
+                                    <div class="order__box order-box">
+                                        <label class="order-box__label" for="">
+                                            Комментарий
+                                        </label>
+                                        <textarea class="order-box__textarea" name="" id=""></textarea>
+                                    </div>
+                                </div>
+                                <button class="order__btn">
+                                    Заказать
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
