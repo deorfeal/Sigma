@@ -1,4 +1,4 @@
-# Configurator
+# Sigma
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -99,7 +99,7 @@ npm run build
 
 - **Name:** Mykhailo Hakman
 - **Email:** deorfeal.it@gmail.com
-- **Telegram:** @deorfeal
+- **Whatsapp:** +39 351 795 1487
 
 ---
 
