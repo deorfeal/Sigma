@@ -78,8 +78,6 @@ npm run build
 - When choosing certain materials and sizes, connected components are automatically activated or deactivated.
 - A system of warning about inconsistencies in case of violation of restrictions on the size and number of components.
 
----
-
 ## 📊 **The logic of addictions**
 
 1. The choice of body material affects the availability of accessories.
@@ -87,13 +85,9 @@ npm run build
 3. Dynamic activation of buttons depending on the status of field filling.
 4. Automatic synchronization of visual display with selected parameters.
 
----
-
 ## 📸 **Screenshots and demonstration**
 
-[Link to a demo version](https://your-demo-link.com)
-
----
+[Link to a demo version](https://deorfeal.github.io/Sigma/)
 
 ## 📧 **Contacts**
 
@@ -101,12 +95,8 @@ npm run build
 - **Email:** deorfeal.it@gmail.com
 - **Whatsapp:** +39 351 795 1487
 
----
-
 ## 📜 **License**
 
 The project is distributed under the license **MIT**.
-
----
 
 This project demonstrates skills in working with **Vue 3**, **TypeScript** and the complex logic of dependencies and interactions of components in the dynamic interface. 🚀
