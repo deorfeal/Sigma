@@ -91,7 +91,7 @@ npm run build
 
 ## 📸 **Screenshots and demonstration**
 
-[Link to a demo version](https://deorfeal.github.io/Sigma/)
+Live demo: https://deorfeal.github.io/Sigma
 
 ---
 
