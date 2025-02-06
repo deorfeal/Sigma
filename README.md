@@ -86,7 +86,7 @@ npm run build
 
 ---
 
-## 📊 **The logic of addictions**
+### 📊 **The logic of addictions**
 
 1. The choice of body material affects the availability of accessories.
 2. The size of the case limits the amount and size of the terminals and cable inputs.
@@ -95,13 +95,13 @@ npm run build
 
 ---
 
-## 📸 **Screenshots and demonstration**
+### 📸 **Screenshots and demonstration**
 
 Live demo: https://deorfeal.github.io/Sigma
 
 ---
 
-## 📧 **Contacts**
+### 📧 **Contacts**
 
 - **Name:** Mykhailo Hakman
 - **Email:** deorfeal.it@gmail.com
@@ -109,7 +109,7 @@ Live demo: https://deorfeal.github.io/Sigma
 
 ---
 
-## 📜 **License**
+### 📜 **License**
 
 The project is distributed under the license **MIT**.
 
